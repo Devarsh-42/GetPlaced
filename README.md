@@ -70,15 +70,15 @@ Two main tabs:
    git clone https://github.com/yourusername/getplaced.git
    cd getplaced
 2. Install dependencies:
-    '''bash
+    ```bash
     flutter pub get
 3. Run the App:
-    '''bash
+    ```bash
     flutter run
 
-🤝 Made By
+### 🤝 Made By
 Devarsh Mehta
-3rd Year ICT Student
-Email: [devarshmehta.42@gmail.com]
-LinkedIn: [linkedin.com/in/devarsh-mehta-6670581b8/]
+- 3rd Year ICT Student
+- Email: [devarshmehta.42@gmail.com]
+- [LinkedIn Profile](linkedin.com/in/devarsh-mehta-6670581b8/)
 
