@@ -7,10 +7,10 @@ class ApiService {
   static const String _baseUrl = 'https://testapi.getlokalapp.com/common/jobs';
   
   // Fetch jobs with pagination
-  Future<List<Job>> getJobs({int page = 1, int pageSize = 3}) async {
+  Future<List<Job>> getJobs() async {
     try {
       // In a real implementation, you'd add pagination parameters to the URL
-      final response = await http.get(Uri.parse('$_baseUrl?page=$page&pageSize=$pageSize'));
+      final response = await http.get(Uri.parse(_baseUrl));
       
       if (response.statusCode == 200) {
         final Map<String, dynamic> data = json.decode(response.body);

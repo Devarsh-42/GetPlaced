@@ -38,9 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(_currentIndex == 0 ? 'Available Jobs' : 'Bookmarked Jobs'),
-      ),
       body: PageView(
         controller: _pageController,
         onPageChanged: (index) {
